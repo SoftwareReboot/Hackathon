@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from controllers import chat_controller
+from controller import chat_controller
 
 chat_bp = Blueprint("chat", __name__)
 

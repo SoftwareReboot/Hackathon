@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from controllers import report_controller
+from controller import report_controller
 
 report_bp = Blueprint("report", __name__)
 
