@@ -19,3 +19,8 @@ def create_app() -> Flask:
 
 if __name__ == "__main__":
     create_app().run(debug=True, port=5000)
+
+#aiService.js:116  POST http://localhost:5000/api/chat 500 (INTERNAL SERVER ERROR)
+
+#callAI@aiService.js:116startInterview@Interview.jsx:133(anonymous)@Interview.jsx:90<Interview>App@App.js:29<App>./src/index.js@index.js:16options.factory@react refresh:37__webpack_require__@bootstrap:28(anonymous)@startup:7(anonymous)@startup:7
+
